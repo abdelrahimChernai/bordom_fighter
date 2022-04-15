@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+	margin: 0;
+	font-family: "Quicksand";
+	color: #333;
+}
+.navbar {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+	color: #6ba3ff;
+}
+.navbar .links {
+	margin-left: auto;
+}
+.navbar a {
+	margin-left: 16px;
+	text-decoration: none;
+	padding: 6px;
+}
+.navbar a:hover {
+	color: #6ba3ff;
+}
+
+.home-container {
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loading {
+	padding: 10px 16px;
+	margin: 20px 0;
+}
+
+.form-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.form-container button {
+	height: 40px;
+	width: 150px;
+	background-color: transparent;
+	border: #6ba3ff solid 2px;
+}
+
+.form-container button:hover {
+	background-color: #6ba4ff30;
+}
+
+.activity-preview {
+	padding: 10px 16px;
+	margin: 20px 0;
+	border-bottom: 1px solid #fafafa;
+}
+.activity-preview:hover {
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.activity-preview h2 {
+	font-size: 20px;
+	color: #6ba3ff;
+	margin-bottom: 8px;
+}
